@@ -1,5 +1,5 @@
 describe("home page", () => {
-  it("can visit the homepage", () => {
+  it("Can visit the homepage", () => {
     cy.visit("/");
   });
   it("There is products on the page", () => {
